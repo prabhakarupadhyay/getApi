@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 8080;
+const ip= "0.0.0.0";
 app.use(express.static("public"));
 var path = require("path");
 app.set("views", path.join(__dirname, "views"));
@@ -30,4 +31,4 @@ app.get("/url", (req, res) => {
   res.json(obj);
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port,ip () => console.log(`Example app listening on port ${port}!`));
