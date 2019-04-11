@@ -17,7 +17,7 @@ var obj = {
 };
 
 app.get("/", (req, res) => {
-  res.render("./public/ss.html");
+  res.render("./public/index.html");
 });
 
 //to send the json file using redirect to show on browser url
