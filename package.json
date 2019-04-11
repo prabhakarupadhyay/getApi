@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/prabhakarupadhyay/getApi/issues"
   },
-  "homepage": "https://github.com/prabhakarupadhyay/getApi#readme"
+  "homepage": "https://github.com/prabhakarupadhyay/getApi#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
 }
